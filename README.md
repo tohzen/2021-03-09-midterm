@@ -106,6 +106,6 @@ so that we don't have to handle ties
 ```
 getPlace([60, 30, 10], 90)     => '1st place'
 getPlace([60, 30, 10], 50)     => '2nd place'
-getPlace([60, 30, 10], 5)      => '3rd place'
+getPlace([60, 30, 10], 15)      => '3rd place'
 getPlace([500, 300, 200], 100) => '4th place'
 ```
