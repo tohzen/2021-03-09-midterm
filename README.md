@@ -59,7 +59,7 @@ Write a function, `numOddValues`, that takes in an array of numbers and returns 
 ```
 numOddValues([0, 1, 2, 3]) => 2
 numOddValues([5, 5, 5, 5]) => 4
-numOddVlaues([]) => 0
+numOddValues([]) => 0
 ```
 
 ---
