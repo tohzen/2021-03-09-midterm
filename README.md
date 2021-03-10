@@ -4,13 +4,9 @@
 
 > Welcome to the Term 1 midterm exam. This test will begin at 10:40am (or earlier) and end at 3:00pm. **Please take a one hour break** from 1:00pm - 2:00pm to eat lunch, rest your brain, and come back to the exam with a fresh set of eyes.
 
-## Rules
-
-* Don't share code with others
-* You may use the internet to look up anything you want (string methods, array methods, etc.)
-
 ## Tips
 
+* You may use the internet to look up anything you want (string methods, array methods, etc.)
 * If you're feeling stuck, skip it!
 * This midterm is long and you are not expected to finish
 * You can go in any order
