@@ -53,7 +53,7 @@ oddIndices([100, 101, 102]) => [101]
 
 ### Problem 3: `numOddValues`
 
-Write a function, `numOddValues`, that takes in an array of numbers and returns the number of odd values in that array.
+Write a function, `numOddValues`, that takes in an array of numbers and returns the quantity of odd values in that array.
 
 **Examples**
 ```
