@@ -7,7 +7,7 @@
 ## Rules
 
 * Don't share code with others
-* You may use the internet to look up string methods, array methods, etc.
+* You may use the internet to look up anything you want (string methods, array methods, etc.)
 
 ## Tips
 
