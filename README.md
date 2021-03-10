@@ -24,7 +24,7 @@ Write a function, `ageToAbilities` that takes a person's age and returns a messa
 │ age      │ message                            │
 ├──────────┼────────────────────────────────────┤
 │ under 16 │ 'You can't drive.'                 │
-│ 16 to 17 │ 'You can drive but not vote'.      │
+│ 16 to 17 │ 'You can drive but not vote.'      │
 │ 18 to 24 │ 'You can vote but not rent a car.' │
 │ 25 plus  │ 'You can do pretty much anything.' │
 └──────────┴────────────────────────────────────┘
