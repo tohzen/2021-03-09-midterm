@@ -104,8 +104,8 @@ so that we don't have to handle ties
 
 **Examples**
 ```
-getPlace(90, [60, 30, 10])     => '1st place'
-getPlace(50, [60, 30, 10])     => '2nd place'
-getPlace(5, [60, 30, 10])      => '3rd place'
-getPlace(100, [500, 300, 200]) => '4th place'
+getPlace([60, 30, 10], 90)     => '1st place'
+getPlace([60, 30, 10], 50)     => '2nd place'
+getPlace([60, 30, 10], 5)      => '3rd place'
+getPlace([500, 300, 200], 100) => '4th place'
 ```
