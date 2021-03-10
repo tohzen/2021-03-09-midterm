@@ -97,13 +97,14 @@ firstPunctuationIndex('alright alright alright') => -1
 
 ### Problem 6: `getPlace`
 
-Write a function, `getPlace`, that takes in two parameters, a new `score` and a **sorted**
-list of previous `highScores` (highest scores comes first, lowest score comes last) and 
-returns a human readable string indicating which 
-place the new score would be in in the list of high scores.
+Write a function, `getPlace`, that takes in two parameters, a **sorted** list of high scores (highest first, loweset last)
+and a new `score`. The function should return a human readable string indicating which 
+place the new score fits into the given list of high scores.
 
-We will assume that the new score is not already in the high scores list
-so that we don't have to handle ties.
+> Note 1: You are not required to insert `score` into the `highScores` array 
+
+> Note 2: We will assume that the new score is not already in the high scores list
+so that we don't have to handle ties
 
 **Examples**
 ```
