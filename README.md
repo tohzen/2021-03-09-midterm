@@ -83,7 +83,7 @@ Write a function, `firstPunctuationIndex`, that returns the index of the first a
 
 **Examples**
 ```
-firstPunctuationIndex('wow! goodness me.') => 4
+firstPunctuationIndex('wow! goodness me.') => 3
 firstPunctuationIndex('I love taking tests?') => 19
 firstPunctuationIndex('...hello?') => 0
 firstPunctuationIndex('alright alright alright') => -1
