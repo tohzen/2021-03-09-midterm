@@ -1,8 +1,8 @@
 # Term 1 - Midterm Exam
 
-> Welcome to the Term 1 midterm exam. This test will begin at 10:40am EST (or earlier) and end at 3:00pm. Please take a one hour break from 1:00pm - 2:00pm to eat lunch, rest your brain, and come back to the exam with a fresh set of eyes.
-
 <img src='./motivation.gif' />
+
+> Welcome to the Term 1 midterm exam. This test will begin at 10:40am EST (or earlier) and end at 3:00pm. **Please take a one hour break** from 1:00pm - 2:00pm to eat lunch, rest your brain, and come back to the exam with a fresh set of eyes.
 
 ## Rules
 
