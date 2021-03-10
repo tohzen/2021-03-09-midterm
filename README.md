@@ -8,7 +8,7 @@
 
 * You may use the internet to look up anything you want (string methods, array methods, etc.)
 * If you're feeling stuck, skip it!
-* This midterm is long and you are not expected to finish
+* It's okay if you don't finish
 * You can go in any order
 * It's better to show a little work on each problem than a lot of work on one problem
 * Relax and have fun!
