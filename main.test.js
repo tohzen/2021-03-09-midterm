@@ -37,22 +37,22 @@ describe('ageToAbilities', () => {
 describe('oddIndices', () => {
 
     it('returns the values at odd indices for non-empty arrays', () => {
-        expect(oddIndices([0, 2, 4, 6, 8, 10])).toBe([2, 6, 10]);
-        expect(oddIndices([1, 2, 3, 2, 4, 7])).toBe([2, 2, 7]);
-        expect(oddIndices([1, 1, 1, 1, 1, 1])).toBe([1, 1, 1]);
-        expect(oddIndices([2, 2, 2, 2, 2, 2])).toBe([2, 2, 2]);
+        expect(oddIndices([0, 2, 4, 6, 8, 10])).toStrictEqual([2, 6, 10]);
+        expect(oddIndices([1, 2, 3, 2, 4, 7])).toStrictEqual([2, 2, 7]);
+        expect(oddIndices([1, 1, 1, 1, 1, 1])).toStrictEqual([1, 1, 1]);
+        expect(oddIndices([2, 2, 2, 2, 2, 2])).toStrictEqual([2, 2, 2]);
     });
 
     it('returns the values at odd indices for single value arrays', () => {
-        expect(oddIndices([0])).toBe([]);
-        expect(oddIndices([1])).toBe([]);
-        expect(oddIndices([2])).toBe([]);
+        expect(oddIndices([0])).toStrictEqual([]);
+        expect(oddIndices([1])).toStrictEqual([]);
+        expect(oddIndices([2])).toStrictEqual([]);
     });
 
     it('returns the values at odd indices for empty arrays', () => {
-        expect(oddIndices([])).toBe([]);
-        expect(oddIndices([])).toBe([]);
-        expect(oddIndices([])).toBe([]);
+        expect(oddIndices([])).toStrictEqual([]);
+        expect(oddIndices([])).toStrictEqual([]);
+        expect(oddIndices([])).toStrictEqual([]);
     });
 });
 
@@ -172,8 +172,8 @@ describe('getPlace', () => {
 
     it('should work for 103rd place', () => {
         let highScores = [];
-        for (let i = 0; i < 98; i++) {
-            highScores.push(102);
+        for (let i = 0; i < 102; i++) {
+            highScores.push(10);
         }
         expect(getPlace(highScores, 1)).toBe('103rd place');
     });
