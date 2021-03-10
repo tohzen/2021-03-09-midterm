@@ -40,6 +40,8 @@ ageToAbilities(10) => 'You can't drive.'
 ageToAbilities(25) => 'You can do pretty much anything.'
 ```
 
+---
+
 ### Problem 2: `oddIndices`
 
 Write a function, `oddIndices`, that takes in an array of numbers and returns only the ones that are located at odd indices (indices is plural of index). Recall that the index of the first value in an array (or string) is 0.
@@ -50,6 +52,8 @@ oddIndices([0, 2, 4, 6, 8, 10]) => [2, 6, 10]
 oddIndices([1]) => []
 oddIndices([100, 101, 102]) => [101]
 ```
+
+---
 
 ### Problem 3: `numOddValues`
 
@@ -62,6 +66,8 @@ numOddValues([5, 5, 5, 5]) => 4
 numOddVlaues([]) => 0
 ```
 
+---
+
 ### Problem 4: `averageStringLength`
 
 Write a function, `averageStringLength`, that takes in an array of strings and returns the average length of the strings. An average is calculated by first summing X values, then dividing the sum by X.
@@ -72,6 +78,8 @@ averageStringLength(['oh', 'hello']) => 3.5
 averageStringLength([]) => 0
 averageStringLength(['a', 'pleasant', 'string']) => 5
 ```
+
+---
 
 ### Problem 5: `firstPunctuationIndex`
 
@@ -84,6 +92,8 @@ firstPunctuationIndex('I love taking tests?') => 19
 firstPunctuationIndex('...hello?') => 0
 firstPunctuationIndex('alright alright alright') => -1
 ```
+
+---
 
 ### Problem 6: `getPlace`
 
