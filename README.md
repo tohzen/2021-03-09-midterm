@@ -99,7 +99,7 @@ place the new score fits into the given list of high scores.
 
 > Note 1: You are not required to insert `score` into the `highScores` array 
 
-> Note 2: We will assume that the new score is not already in the high scores list
+> Note 2: We will assume that the new score is not already in the high scores array
 so that we don't have to handle ties
 
 **Examples**
